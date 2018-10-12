@@ -1,15 +1,18 @@
 %bcond_without  dafsa
 
 Name:           publicsuffix-list
-Version:        20181003
+Version:        20181012
 Release:        1
 Summary:        Cross-vendor public domain suffix database
 Group:          Development/Java
 License:        MPLv2.0
 URL:            https://publicsuffix.org/
-Source0:        https://publicsuffix.org/list/public_suffix_list.dat
-Source1:        https://www.mozilla.org/media/MPL/2.0/index.txt
-Source2:        https://github.com/publicsuffix/list/raw/master/tests/test_psl.txt
+Source0:  public_suffix_list.dat        
+#https://publicsuffix.org/list/public_suffix_list.dat
+Source1:        index.txt
+#https://www.mozilla.org/media/MPL/2.0/index.txt
+Source2:    test_psl.txt        
+#https://github.com/publicsuffix/list/raw/master/tests/test_psl.txt
 
 BuildArch:      noarch
 
