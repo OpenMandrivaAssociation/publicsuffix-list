@@ -17,7 +17,7 @@ Source2:    test_psl.txt
 BuildArch:      noarch
 
 %if %{with dafsa}
-BuildRequires:  psl-make-dafsa
+#BuildRequires:  psl-make-dafsa
 %endif
 
 
