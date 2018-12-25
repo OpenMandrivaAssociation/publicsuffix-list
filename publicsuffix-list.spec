@@ -2,7 +2,7 @@
 
 Name:           publicsuffix-list
 Version:        20181012
-Release:        1
+Release:        2
 Summary:        Cross-vendor public domain suffix database
 Group:          Development/Java
 License:        MPLv2.0
