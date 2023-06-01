@@ -1,8 +1,8 @@
 %bcond_without  dafsa
 
 Name:		publicsuffix-list
-Version:	20210321
-Release:	2
+Version:	20230601
+Release:	1
 Summary:	Cross-vendor public domain suffix database
 Group:		Development/Java
 License:	MPLv2.0
